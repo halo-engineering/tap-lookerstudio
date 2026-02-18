@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tap-lookerstudio"
+version = "0.1.0"
+description = "Singer tap for Google Looker Studio asset metadata"
+requires-python = ">=3.9"
+license = "Apache-2.0"
+dependencies = [
+    "singer-sdk~=0.42.0",
+    "google-auth~=2.29.0",
+    "requests~=2.31.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest~=8.0",
+    "singer-sdk[testing]~=0.42.0",
+    "ruff~=0.5.0",
+    "responses~=0.25.0",
+]
+
+[project.scripts]
+tap-lookerstudio = "tap_lookerstudio.tap:TapLookerStudio.cli"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 100
