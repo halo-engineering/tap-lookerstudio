@@ -1,0 +1,34 @@
+version: 1
+default_environment: dev
+project_id: tap-lookerstudio-dev
+
+plugins:
+  extractors:
+    - name: tap-lookerstudio
+      namespace: tap_lookerstudio
+      pip_url: -e .
+      executable: tap-lookerstudio
+      capabilities:
+        - state
+        - catalog
+        - discover
+      settings:
+        - name: service_account_json
+          kind: object
+          description: Google service account key JSON (parsed object)
+        - name: delegated_user_email
+          kind: string
+          description: Google Workspace user email to impersonate
+        - name: include_trashed
+          kind: boolean
+          value: false
+          description: Include trashed assets
+        - name: owner_filter
+          kind: string
+          description: Filter assets by owner email
+        - name: start_date
+          kind: date_iso8601
+          description: Initial bookmark for incremental streams
+
+environments:
+  - name: dev
