@@ -7,7 +7,7 @@ name = "tap-lookerstudio"
 version = "0.1.0"
 description = "Singer tap for Google Looker Studio asset metadata"
 requires-python = ">=3.9"
-license = "Apache-2.0"
+license = "FSL-1.1-ALv2"
 dependencies = [
     "singer-sdk~=0.42.0",
     "google-auth~=2.29.0",
