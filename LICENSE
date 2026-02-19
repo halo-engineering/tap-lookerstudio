@@ -1,0 +1,83 @@
+Functional Source License, Version 1.1, Apache 2.0 Future License
+
+Copyright 2026 HALO Strategies, LLC
+
+Terms and Conditions
+
+Licensor ("We"): The party offering the Software under these Terms and
+Conditions.
+
+The Software: Each version of the software that we make available under
+these Terms and Conditions, as indicated by our inclusion of these Terms
+and Conditions with the Software.
+
+License Grant: Subject to the terms and conditions of this Agreement, we
+hereby grant to you a non-exclusive, royalty-free, worldwide,
+non-transferable, non-sublicensable license to use, copy, modify, create
+derivative works of, redistribute, and make the Software available to the
+extent necessary for your use for Permitted Purposes only.
+
+Permitted Purpose: A Permitted Purpose is any purpose other than a
+Competing Use.
+
+Competing Use: Making the Software available to others in a commercial
+product or service that:
+  (1) substitutes for the Software;
+  (2) substitutes for any other product or service we offer using the
+      Software that exists as of the date we make the Software available;
+      or
+  (3) offers the same or substantially similar functionality as the
+      Software.
+
+Permitted Purposes specifically include the following, even if they might
+otherwise qualify as a Competing Use:
+  (a) use by an individual for non-commercial purposes;
+  (b) use by an educational institution;
+  (c) use that does not exceed a de minimis number of users (as reasonably
+      determined by us);
+  (d) contributions to the Software back to us; and
+  (e) internal business operations.
+
+Patents: To the extent your use for a Permitted Purpose would necessarily
+infringe our patents, the license grant above includes a license under our
+patents. If you make any written claim that the Software infringes or
+contributes to infringement of any patent, your patent license for the
+Software granted under these terms ends immediately.
+
+Redistribution: When you redistribute the Software, you must include these
+Terms and Conditions in each copy of the Software and make these Terms and
+Conditions available for all copies of the Software.
+
+Notices: You must retain all notices in the Software.
+
+Disclaimer: THE SOFTWARE IS PROVIDED "AS IS" AND WITHOUT WARRANTIES OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND
+TITLE.
+
+No Liability: TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE WILL
+HAVE NO LIABILITY ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE
+THE SOFTWARE OR THE DOCUMENTATION, FOR ANY TYPE OF LEGAL CLAIM.
+
+Termination: If you use the Software in violation of these Terms and
+Conditions, all your licenses terminate immediately.
+
+Grant of Future License
+
+We hereby irrevocably grant you an additional license to use the Software
+under the Apache License, Version 2.0 that is effective on the second
+anniversary of the date we make the Software available. On or after that
+date, you may use the Software under the Apache License, Version 2.0, in
+which case the following will apply:
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may
+not use this file except in compliance with the License. You may obtain a
+copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations
+under the License.
